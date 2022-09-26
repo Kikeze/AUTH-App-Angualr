@@ -1,1 +1,15 @@
-<p>dashboard works!</p>
+
+
+<h1>Dashboard</h1>
+<hr>
+
+<p>
+    Esta seccion solo es visible para personas autenticadas
+</p>
+
+<h4>Informacion de Usuario</h4>
+<pre>{{ usuario | json }}</pre>
+
+<button type="button" (click)="salir()">
+    Logout
+</button>
